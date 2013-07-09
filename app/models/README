@@ -3,3 +3,15 @@ Add your ActiveRecord models here.
 You can create them by being in the application root directory and running, e.g.,
 
 rake generate:model NAME=User
+
+1. Migrations created.
+2. Models created.
+3. Database created.
+4. run export before shotgun:
+
+$ export TWITTER_KEY=<your_twitter_consumer_key>
+$ export TWITTER_SECRET=<your_twitter_consumer_secret>
+
+5. callback function (the route the app takes after user authentication) is set in the helper method. Actually set in the request token.
+
+6. 
